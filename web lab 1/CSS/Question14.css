@@ -1,0 +1,56 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    max-width: 900px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.sidebar{
+    width: 35%;
+    background-color: #c75a42;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.sidebar img{
+    width: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+.profile ul{
+    list-style: none;
+}
+.sidebar ul{
+    text-align: left;
+}
+.content h2{
+    color: white;
+    background-color: #d96248;
+    border-radius: 4px;
+    padding-left: 4px;
+}
+.intro p{
+    font-weight: 700;
+    font-size: large;
+}
+.content{
+    width: 65%;
+    padding: 20px;
+    background-color: white;
+    color: black;
+}
+.education{
+    border: 1px solid gray;
+    padding: 4px;
+    border-radius: 8px;
+}
+.profile{
+    padding-bottom: 20px;
+}
+.skill{
+    padding-bottom: 20px;
+}

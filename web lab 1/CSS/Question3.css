@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0d0b4;
+}
+header {
+    background: #8c5c53;
+    color: white;
+    padding: 15px;
+    text-align: left;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background: #cf8e55;
+    padding: 10px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+nav a:hover {
+    background: #e39e62;
+}
+.container {
+    padding: 20px;
+}
+section {
+    margin: 20px 0;
+    padding: 20px;
+    border: 4px solid #8c5c53;
+    border-radius: 8px;
+}
+.gallery img {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 2px solid #8c5c53;
+    border-radius: 5px;
+    background-color: #f0d0b4;
+}
+.contact-form button {
+    padding: 10px 20px;
+    background: white;
+    color: #8c5c53;
+    border: 2px solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
