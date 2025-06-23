@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book SYSTEM "question2a.dtd">
+<book xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="question2b.xsd">
+    <Title>Introduction to XML</Title>
+    <Author>Ridesh</Author>
+    <ISBN>97812333448</ISBN>
+    <Publisher>lalitpur Publishers</Publisher>
+    <Edition>1</Edition>
+    <Price>599.00</Price>
+</book>
